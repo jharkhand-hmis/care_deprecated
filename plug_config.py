@@ -15,21 +15,9 @@ plugs = [
         configs={},
     ),
     Plug(
-        name="analytics",
-        package_name="git+https://github.com/ohcnetwork/analytics_plug.git",
-        version="@main",
-        configs={},
-    ),
-    Plug(
         name="care_scribe",
         package_name="git+https://github.com/10bedicu/care_scribe.git",
         version="@master",
-        configs={},
-    ),
-    Plug(
-        name="care_kutumba",
-        package_name="git+https://github.com/10bedicu/care_kutumba.git",
-        version="@main",
         configs={},
     ),
 ]
